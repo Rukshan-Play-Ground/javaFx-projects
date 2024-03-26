@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="509.0" prefWidth="869.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep12.dashboardui.controller.DashboardView">
+   <children>
+      <VBox alignment="CENTER" prefHeight="509.0" prefWidth="242.0" spacing="20.0" style="-fx-background-color: #212f36;" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="627.0" AnchorPane.topAnchor="2.0">
+         <children>
+            <ImageView fitHeight="59.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/dashboard/shopping-bag%20(3).png" />
+               </image>
+            </ImageView>
+            <Button graphicTextGap="15.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnDashboardOnAction" prefHeight="36.0" prefWidth="123.0" style="-fx-background-color: #f5b800;" text="Dashboard">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="35.0" right="35.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/dashboard/dashboard.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button graphicTextGap="15.0" layoutX="20.0" layoutY="261.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnCustomerOnAction" prefHeight="36.0" prefWidth="123.0" style="-fx-background-color: #f5b800;" text="Customer">
+               <padding>
+                  <Insets bottom="10.0" left="35.0" right="35.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/dashboard/customer.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button graphicTextGap="15.0" layoutX="20.0" layoutY="294.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnStockOnAction" prefHeight="36.0" prefWidth="123.0" style="-fx-background-color: #f5b800;" text="Stock">
+               <padding>
+                  <Insets bottom="10.0" left="35.0" right="35.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/dashboard/ready-stock.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button graphicTextGap="15.0" layoutX="20.0" layoutY="327.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnOrderOnAction" prefHeight="36.0" prefWidth="123.0" style="-fx-background-color: #f5b800;" text="Order">
+               <padding>
+                  <Insets bottom="10.0" left="35.0" right="35.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/dashboard/shopping-bag.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button graphicTextGap="12.0" layoutX="20.0" layoutY="360.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnReportsOnAction" prefHeight="36.0" prefWidth="123.0" style="-fx-background-color: #f5b800;" text="Reports">
+               <padding>
+                  <Insets bottom="10.0" left="35.0" right="35.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/dashboard/report.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button graphicTextGap="15.0" layoutX="20.0" layoutY="393.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnLogoutOnAction" prefHeight="36.0" prefWidth="123.0" style="-fx-background-color: #e60526;" text="Logout" textFill="WHITE">
+               <padding>
+                  <Insets bottom="10.0" left="35.0" right="35.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/dashboard/power-off.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <HBox alignment="BASELINE_RIGHT" layoutX="243.0" prefHeight="71.0" prefWidth="622.0" spacing="10.0" style="-fx-background-color: #212f36;" AnchorPane.leftAnchor="243.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="2.0">
+         <children>
+            <ImageView fitHeight="50.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/dashboard/user%20(1).png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="10.0" top="15.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+      <AnchorPane fx:id="root" layoutX="244.0" layoutY="73.0" prefHeight="396.0" prefWidth="623.0" style="-fx-background-color: #212f36;" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="244.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="75.0" />
+   </children>
+</AnchorPane>

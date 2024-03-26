@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane prefHeight="488.0" prefWidth="678.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep12.windowsnotepad.controller.MainViewController">
+   <children>
+      <MenuBar layoutY="7.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem mnemonicParsing="false" text="New" />
+              <MenuItem mnemonicParsing="false" text="Open..." />
+                  <MenuItem mnemonicParsing="false" text="Save" />
+                  <MenuItem mnemonicParsing="false" text="Save As..." />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Page Setup..." />
+                  <MenuItem mnemonicParsing="false" text="Print..." />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Undo" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Cut" />
+                  <MenuItem mnemonicParsing="false" text="Copy" />
+                  <MenuItem mnemonicParsing="false" text="Past" />
+                  <MenuItem mnemonicParsing="false" text="Delete" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Search with Bing" />
+                  <MenuItem mnemonicParsing="false" text="Find..." />
+                  <MenuItem mnemonicParsing="false" text="Find Next" />
+                  <MenuItem mnemonicParsing="false" text="Find Previous" />
+                  <MenuItem mnemonicParsing="false" text="Replace..." />
+                  <MenuItem mnemonicParsing="false" text="Go To..." />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Select All" />
+                  <MenuItem mnemonicParsing="false" text="Time/Date" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Format">
+              <items>
+                  <CheckMenuItem mnemonicParsing="false" text="Word Wrap">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="N" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </CheckMenuItem>
+                <MenuItem mnemonicParsing="false" text="Font..." />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="View">
+               <items>
+                  <CheckMenuItem mnemonicParsing="false" text="Status Bar" />
+                  <MenuItem mnemonicParsing="false" />
+               </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#btnAboutOnAction" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <HBox layoutX="335.0" layoutY="481.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Separator layoutX="367.0" layoutY="10.0" orientation="VERTICAL" prefHeight="0.0" prefWidth="11.0" />
+            <Label prefHeight="27.0" prefWidth="140.0" text="Windows (CRLF)">
+               <padding>
+                  <Insets left="5.0" />
+               </padding>
+            </Label>
+            <Separator orientation="VERTICAL" prefHeight="0.0" prefWidth="11.0" />
+            <Label prefHeight="27.0" prefWidth="140.0" text="  Ln 8, Col 28">
+               <padding>
+                  <Insets left="5.0" />
+               </padding>
+            </Label>
+            <Separator layoutX="134.0" layoutY="10.0" orientation="VERTICAL" prefHeight="0.0" prefWidth="11.0" />
+            <Label prefHeight="27.0" prefWidth="111.0" text="100%">
+               <padding>
+                  <Insets left="5.0" />
+               </padding>
+            </Label>
+         </children>
+      </HBox>
+      <TextArea layoutX="8.0" layoutY="27.0" prefHeight="459.0" prefWidth="668.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="27.0" />
+   </children>
+</AnchorPane>
